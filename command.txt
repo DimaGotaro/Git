@@ -2,11 +2,41 @@ cat .git/config - выводит содержимое файла
 
 cat ~/.gitconfig - email, name
 
+git config --global core.editor notepad - вызов блокнота, для записи коммита при:
+
+git commit - сохранение в репозиторий, с вызовом текстового редактора
+
+git config --global core.editor - просмотр выбранного блокнота для коммита
+
 git config alias.c '!git ...; git ...' - несколько комманд в алиасе
 
 git config alias.c '--global' - одна комманда в алиасе
 
-git config --list - вывести настройки кон-ции
+git config --list - вывести настройки
+
+
+less - листалка в терминале
+
+/editor - поиск в тексте "editor"
+
+n - поиск вперёд
+
+shift + n - поиск назад
+
+
+git log - посмотреть список коммитов
+
+git update-index --chmod=+x <file.name> - изменение прав исполнимости файла в индексе(для unix)
+
+git add --chmod=+x <file.name> - изменение прав исполнимости файла не добавленного в index (для unix)
+
+git show - посмотреть текущий коммит
+
+git show 293ada3e4a70604ccc2c833e5b7ecc4300f525b8 - посмотреть коммит
+
+git show --pretty=fuller - посмотреть больше инф о коммите
+
+git commit --a
 
 git init - Позволяет проинициализировать репозиторий в текущей папке
 
