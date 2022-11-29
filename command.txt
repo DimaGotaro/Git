@@ -60,6 +60,8 @@ git commit -m 'commit message' Ч создает коммит с сообщением
 
 git commit --all -m epta8 - индекс и коммит всех изменений дл€ файлов, которые уже отслеживаютс€ git
 
+git commit -m 'epta9' command.txt - коммит файла command.txt, которые уже отслеживаютс€ git
+
 git branch Ч показывает список веток
 
 git branch branch-name Ч создает новую ветку branch-name
