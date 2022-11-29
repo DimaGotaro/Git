@@ -42,7 +42,11 @@ git init - Позволяет проинициализировать репозиторий в текущей папке
 
 git status - Показывает текущий статус
 
+git restore --staged redactor - откатить добавление в git(index) всех файлов из папки redactor
+
 git add - Отслеживает изменения файлов
+
+git add --force redactor/rrr.txt - добавить файл из .gitignore
 
 git add index.html — добавляет index.html
 
