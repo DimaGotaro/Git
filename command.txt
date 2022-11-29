@@ -52,6 +52,8 @@ git add index.html Ч добавл€ет index.html
 
 git add . Ч добавл€ет все файлы
 
+git add -p src/fff.txt - добавить в индекс только выбранные изменени€ в файле fff.txt
+
 git commit - —охран€ет изменени€ в коммит
 
 git commit -m 'commit message' Ч создает коммит с сообщением
