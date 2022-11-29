@@ -12,7 +12,13 @@ git config alias.c '!git ...; git ...' - несколько комманд в алиасе
 
 git config alias.c '--global' - одна комманда в алиасе
 
+git config --global alias.coma '!git add -A;git commit' - нова€ команда git coma
+
 git config --list - вывести настройки
+
+git config --global core.excludesFile ~/.gitignore - настроить глобальный gitignore в git
+
+notepad ~/.gitignore - открыть .gitignore с помощью блокнота
 
 
 less - листалка в терминале
@@ -50,7 +56,9 @@ git add --force redactor/rrr.txt - добавить файл из .gitignore
 
 git add index.html Ч добавл€ет index.html
 
-git add . Ч добавл€ет все файлы
+git add . Ч добавл€ет все файлы в индекс, текущей директории!
+
+git add -A - индексирует все изменени€, с корн€ проекта
 
 git add -p src/fff.txt - добавить в индекс только выбранные изменени€ в файле fff.txt
 
