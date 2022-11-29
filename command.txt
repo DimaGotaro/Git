@@ -58,6 +58,8 @@ git commit - —охран€ет изменени€ в коммит
 
 git commit -m 'commit message' Ч создает коммит с сообщением
 
+git commit --all -m epta8 - индекс и коммит всех изменений дл€ файлов, которые уже отслеживаютс€ git
+
 git branch Ч показывает список веток
 
 git branch branch-name Ч создает новую ветку branch-name
