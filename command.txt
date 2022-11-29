@@ -36,7 +36,7 @@ git show 293ada3e4a70604ccc2c833e5b7ecc4300f525b8 - посмотреть коммит
 
 git show --pretty=fuller - посмотреть больше инф о коммите
 
-git commit --a
+git commit --author='Ded Inside <ded@.com>' --date='4' - коммит с автором и временем
 
 git init - Позволяет проинициализировать репозиторий в текущей папке
 
