@@ -18,7 +18,19 @@ git config --list - вывести настройки
 
 git config --global core.excludesFile ~/.gitignore - настроить глобальный gitignore в git
 
-notepad ~/.gitignore - открыть .gitignore с помощью блокнота
+notepad ~/.gitignore - открыть и создать .gitignore с помощью блокнота
+
+git rm -r src - удаление директории src
+
+git rm ggg.txt - удаление файла (не удалит если в файле есть изменения)
+
+git rm -f -r src - удаление с игнорированием предупреждений
+
+-f - игнорирование предупреждений
+
+git rm -r --cached src - удаление директории из индекса
+
+--cached - можно испольсзовать с разными коммандами(операция с индексом)
 
 
 less - листалка в терминале
